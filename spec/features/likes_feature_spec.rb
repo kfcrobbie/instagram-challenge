@@ -16,7 +16,6 @@ feature 'liking pictures' do
     expect(page).to have_content('1 like')
   end
 
-
   def sign_up
     visit('/')
     click_link('Sign up')
@@ -33,5 +32,4 @@ feature 'liking pictures' do
     attach_file "Image", 'spec/features/Pompey.jpg'
     click_button 'Upload picture'
   end
-
 end

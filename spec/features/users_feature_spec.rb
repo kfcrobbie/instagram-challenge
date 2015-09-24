@@ -80,5 +80,4 @@ end
     attach_file "Image", 'spec/features/Pompey.jpg'
     click_button 'Upload picture'
   end
-
 end

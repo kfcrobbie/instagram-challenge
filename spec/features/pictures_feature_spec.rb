@@ -33,7 +33,6 @@ feature 'pictures' do
       click_button 'Upload picture'
       expect(page).to have_content 'error'
     end
-
   end
 
   context 'viewing a picture' do
@@ -88,5 +87,4 @@ feature 'pictures' do
     attach_file "Image", 'spec/features/Pompey.jpg'
     click_button 'Upload picture'
   end
-
 end
